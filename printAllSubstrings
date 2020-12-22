@@ -1,0 +1,15 @@
+void printSubstrings(char input[]) {
+    // Write your code here
+    int count=0;
+    for(int i=0;input[i]!=0;i++)
+    {
+             for(int k=0;k<=i;k++){
+            for(int j=k;j<=i;j++)
+            {
+                cout<<input[j];
+                
+            }
+        cout<<endl;
+
+    }}
+}
